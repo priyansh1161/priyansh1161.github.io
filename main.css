@@ -26,6 +26,19 @@ header {
   margin: 10px 0 0 0;
 }
 
+.icons-social {
+  padding: 10px;
+}
+
+.icons-social a {
+  color: white;
+}
+
+.icons-social i {
+  font-size: 3em;
+  padding: 10px;
+}
+
 @media (max-width: 768px) {
   html {
     font-size: 8px;
