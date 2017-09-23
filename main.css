@@ -1,0 +1,36 @@
+* {
+  font-size: 10px;
+}
+header {
+  background: url('./assets/img/bg.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50%;
+  color: #FCFDFD;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.bigheadline {
+  /*font-family: 'Raleway', sans-serif;*/
+  font-weight: 100;
+  font-size: 10em;
+  margin: 0;
+}
+.subheadline {
+  /*font-family: 'Titillium Web', sans-serif;*/
+  font-weight: 200;
+  font-size: 3em;
+  margin: 4px 0 0 0;
+}
+
+@media (max-width: 768px) {
+  .bigheadline {
+    font-size: 6em;
+  }
+  .subheadline {
+    font-size: 2em;
+  }
+}
