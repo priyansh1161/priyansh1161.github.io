@@ -1,4 +1,4 @@
-* {
+html {
   font-size: 10px;
 }
 header {
@@ -23,14 +23,16 @@ header {
   /*font-family: 'Titillium Web', sans-serif;*/
   font-weight: 200;
   font-size: 3em;
-  margin: 4px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 @media (max-width: 768px) {
-  .bigheadline {
-    font-size: 6em;
+  html {
+    font-size: 8px;
   }
-  .subheadline {
-    font-size: 2em;
+}
+@media (max-width: 460px) {
+  html {
+    font-size: 5px;
   }
 }
